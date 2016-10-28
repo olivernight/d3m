@@ -1,0 +1,15 @@
+#behat.yml
+
+default:
+  suites:
+    default:
+      contexts:
+        - D3mContext:
+          baseUrl: 'http://d3m.local'
+          tempPath: '~/work/lp/2016/silex/d3m'
+        - ContactsContext:
+          baseUrl: 'http://d3m.local'
+          tempPath: '~/work/lp/2016/silex/d3m'
+        - RealisationsContext:
+          baseUrl: 'http://d3m.local'
+          tempPath: '~/work/lp/2016/silex/d3m'
